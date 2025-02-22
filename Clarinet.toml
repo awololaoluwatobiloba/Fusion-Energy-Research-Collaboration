@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.data-sharing]
+path = 'contracts/data-sharing.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.experiment-design]
 path = 'contracts/experiment-design.clar'
 clarity_version = 2
